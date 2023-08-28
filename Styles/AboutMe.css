@@ -1,0 +1,5 @@
+.aboutme-outer {
+    height: var(--page-height);
+    width: 100%;
+    background: orange;
+}

@@ -1,0 +1,26 @@
+.outer-navigation {
+    background: hotpink;
+    width: 100%;
+    height: var(--navbar-height);
+    max-height: 15vh;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation-links {
+    background: red;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin:10px;
+    width: 120px;
+
+}

@@ -1,0 +1,16 @@
+
+.homepage-outer {
+    height: calc(var(--page-height) - var(--navbar-height));
+    width: 100%;
+    background: lime;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage-content {
+    margin-top: 2.5%;
+    width: 45%;
+    height: calc(var(--page-height) - var(--navbar-height) - 10%);
+    background: cyan;
+}
