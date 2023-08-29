@@ -5,6 +5,7 @@
     background: lime;
 
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -13,4 +14,25 @@
     width: 45%;
     height: calc(var(--page-height) - var(--navbar-height) - 10%);
     background: cyan;
+}
+
+.homepage-anim {
+    width: auto;
+    height: 100%;
+    min-width: 200px !important;
+}
+
+
+/*RESPONSIVENESS*/
+
+@media (max-width: 1000px) {
+    .homepage-outer {
+        flex-direction: column;
+    }
+
+    .homepage-content {
+        width: 90%;
+        height: 45%;
+        margin-left: 5%;
+    }
 }

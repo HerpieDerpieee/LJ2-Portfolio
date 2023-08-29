@@ -23,4 +23,10 @@
     margin:10px;
     width: 120px;
 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navigation-btn:hover {
+    text-shadow: #000055 1px 0 10px;
 }
