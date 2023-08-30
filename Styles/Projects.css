@@ -1,5 +1,22 @@
 .projects-outer {
-    height: var(--page-height);
+    min-height: var(--page-height);
     width: 100%;
     background: darkmagenta;
+    padding: 50px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+
+    width: calc(100% - 100px);
+    background: lime;
+}
+
+.projects-content {
+    width: 375px;
+    height: 600px;
+    background: antiquewhite;
 }
