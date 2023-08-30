@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="Styles/Projects.css">
     <link rel="stylesheet" href="Styles/Contact.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <?php
