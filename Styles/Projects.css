@@ -8,8 +8,11 @@
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    justify-content: space-around;
     gap: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     width: calc(100% - 100px);
     background: lime;
@@ -19,4 +22,17 @@
     width: 375px;
     height: 600px;
     background: antiquewhite;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.projects-content-img {
+    width:  80%;
+    height: 30%;
+    background: black;
+    color: white;
+    margin-top: 10px;
 }

@@ -1,4 +1,4 @@
-<div class="projects-outer">
+<div class="projects-outer" id="projects">
     <div class="projects-grid" id="projects-container">
         <?php
         include_once "./Components/db.php";
@@ -11,7 +11,9 @@
             while($row = $result->fetch_assoc()) {
                 ?>
                 <div class="projects-content">
-                    <?= $row["name"] ?>
+                    <div><?= $row["name"] ?></div>
+                    <div class="projects-content-img">image placeholder</div>
+                    <div><?= $row["description"] ?></div>
                 </div>
                 <?php
             }

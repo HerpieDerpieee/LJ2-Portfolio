@@ -29,4 +29,5 @@
 
 .navigation-btn:hover {
     text-shadow: #000055 1px 0 10px;
+    cursor: pointer;
 }

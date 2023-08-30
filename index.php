@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio | Valentijn van der Jagt</title>
     <link rel="stylesheet" href="Styles/Index.css">
     <link rel="stylesheet" href="Styles/Navigation.css">
     <link rel="stylesheet" href="Styles/Homepage.css">
