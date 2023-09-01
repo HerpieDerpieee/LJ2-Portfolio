@@ -22,6 +22,7 @@
         include_once "Pages/projects.php";
         include_once "Pages/contact.php";
     ?>
+
 </body>
 </html>
 
