@@ -35,3 +35,8 @@
     text-shadow: #000055 1px 0 10px;
     cursor: pointer;
 }
+@media only screen and (max-width: 880px) {
+    .outer-navigation {
+        justify-content: center !important;
+    }
+}

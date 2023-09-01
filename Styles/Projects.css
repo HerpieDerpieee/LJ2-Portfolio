@@ -2,7 +2,11 @@
     min-height: var(--page-height);
     width: 100%;
     background: var(--background);
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .projects-grid {
@@ -25,6 +29,7 @@
 }
 
 .projects-content {
+    min-width: 375px;
     width: 375px;
     height: 600px;
     background: var(--accent);
@@ -37,7 +42,18 @@
 }
 .projects-content-img {
     width:  80%;
-    height: 30%;
+    height: auto;
     color: white;
     margin-top: 10px;
+}
+
+.projects-fancy-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+    margin-bottom: 10px;
 }
