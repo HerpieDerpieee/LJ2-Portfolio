@@ -5,12 +5,24 @@
     --navbar-height: 80px;
     scroll-behavior: smooth;
 
+
+    --text: #b6d1f6;
+    --background: #232323;
+    --primary: #0045da;
+    --secondary: #464646;
+    --accent: #48abf2;
+
 }
 
 * {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    color: var(--text);
+}
+
+html, body {
+    background: var(--background);
 }
 
 @media (prefers-reduced-motion: no-preference) {

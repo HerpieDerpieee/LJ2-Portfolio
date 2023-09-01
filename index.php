@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="Styles/Projects.css">
     <link rel="stylesheet" href="Styles/Contact.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="Scripts/ProjectsDisappear.js" defer></script>
 </head>
-<body>
+<body onload="disappear()" onresize="disappear()">
     <?php
         include_once "Components/navigation.php";
 

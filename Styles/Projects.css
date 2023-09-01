@@ -1,7 +1,7 @@
 .projects-outer {
     min-height: var(--page-height);
     width: 100%;
-    background: darkmagenta;
+    background: var(--background);
     padding: 50px;
 }
 
@@ -15,13 +15,19 @@
     padding-bottom: 10px;
 
     width: calc(100% - 100px);
-    background: lime;
+}
+#projects-show-more {
+    width: calc(100% - 100px);
+    height: 50px;
+
+    background: var(--primary);
+    border: var(--accent);
 }
 
 .projects-content {
     width: 375px;
     height: 600px;
-    background: antiquewhite;
+    background: var(--accent);
 
     display: flex;
     justify-content: flex-start;
@@ -32,7 +38,6 @@
 .projects-content-img {
     width:  80%;
     height: 30%;
-    background: black;
     color: white;
     margin-top: 10px;
 }

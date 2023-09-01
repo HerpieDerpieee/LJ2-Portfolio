@@ -2,7 +2,7 @@
 .homepage-outer {
     height: calc(var(--page-height) - var(--navbar-height));
     width: 100%;
-    background: lime;
+    background: var(--background);
 
     display: flex;
     flex-direction: row;
@@ -13,7 +13,6 @@
     margin-top: 2.5%;
     width: 45%;
     height: calc(var(--page-height) - var(--navbar-height) - 10%);
-    background: cyan;
 }
 
 .homepage-anim {
@@ -22,6 +21,22 @@
     min-width: 200px !important;
 }
 
+.homepage-fancy-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-fancy-title>h1 {
+    font-size: max(8vw, 50px);
+}
+
+.fancy-text {
+    background: linear-gradient(120deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: max(9vw, 50px);
+}
 
 /*RESPONSIVENESS*/
 

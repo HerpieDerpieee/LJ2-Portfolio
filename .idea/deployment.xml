@@ -5,7 +5,7 @@
       <paths name="web03">
         <serverdata>
           <mappings>
-            <mapping deploy="/httpdocs/INTRO/Portfolio" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/httpdocs/LJ2/INTRO/Portfolio" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -2,7 +2,7 @@
 
     include_once "./db.php";
 
-    if (isset($_POST)){
+    if (isset($_POST["name"], $_POST["email"], $_POST["subject"], $_POST["message"])){
         $stmt = $conn->prepare("INSERT INTO Portfolio_ContactForm (name, email, subject, content) VALUES (?, ?, ?, ?)");
         $stmt->bind_param("ssss", $name, $email, $subject, $content);
 

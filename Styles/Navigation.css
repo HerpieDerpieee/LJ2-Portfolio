@@ -1,5 +1,5 @@
 .outer-navigation {
-    background: hotpink;
+    background: var(--background);
     width: 100%;
     height: var(--navbar-height);
     max-height: 15vh;
@@ -7,15 +7,19 @@
     display: flex;
     justify-content: space-between;
 
+
+    border-bottom: 2px var(--secondary) solid;
 }
 
 .navigation-links {
-    background: red;
     display: flex;
     align-items: center;
+    gap:5px;
 }
 
 .navigation-btn {
+    background: var(--primary);
+
     display: flex;
     justify-content: center;
     align-items: center;

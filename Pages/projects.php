@@ -12,7 +12,7 @@
                 ?>
                 <div class="projects-content">
                     <div><?= $row["name"] ?></div>
-                    <div class="projects-content-img">image placeholder</div>
+                    <img class="projects-content-img" src="<?= $row['img'] ?>"/>
                     <div><?= $row["description"] ?></div>
                 </div>
                 <?php
@@ -23,4 +23,6 @@
 
         ?>
     </div>
+    <button id="projects-show-more" onclick="disappear(true)">Show More</button>
 </div>
+
