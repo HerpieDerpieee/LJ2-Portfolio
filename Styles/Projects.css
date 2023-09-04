@@ -39,21 +39,13 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
+
+    border: 5px double var(--primary);
+    border-radius: 50px;
 }
 .projects-content-img {
     width:  80%;
     height: auto;
     color: white;
     margin-top: 10px;
-}
-
-.projects-fancy-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(120deg, var(--primary), var(--accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: xxx-large;
-    margin-bottom: 10px;
 }

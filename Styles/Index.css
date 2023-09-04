@@ -25,8 +25,23 @@ html, body {
     background: var(--background);
 }
 
+.pages-fancy-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     :root {
         scroll-behavior: smooth;
     }
+}
+
+#home, #aboutme, #projects {
+    border-bottom: 2px solid var(--secondary);
 }

@@ -1,5 +1,5 @@
 <div class="projects-outer" id="projects">
-    <h1 class="projects-fancy-title">Projecten</h1><br><br>
+    <h1 class="pages-fancy-title">Projecten</h1><br><br>
     <div class="projects-grid" id="projects-container">
         <?php
         include_once "./Components/db.php";
