@@ -11,6 +11,25 @@
         $subject=$_POST["subject"];
         $content=$_POST["message"];
         $stmt->execute();
+
+        $body = "
+Hallo Valentijn\n\n
+
+".$name." has contacted you trough the contact form,
+
+The content of the message is shown here:
+-----
+".$content."
+-----
+
+To reach out to ".$name." please do that with the following email adress:
+".$email."
+
+
+Kind regards,
+Automatic PHP Mailing System
+        ";
+        mail("no mail for you :)", "New Contact Form Entry: ".$_POST["subject"], $body);
     }
 
 

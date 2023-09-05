@@ -27,6 +27,8 @@
     height: auto;
     background: var(--accent);
 
+    aspect-ratio: 1/1;
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -38,7 +40,6 @@
 }
 .aboutme-text {
     width: 80%;
-    margin-left: 10%;
     text-align: left;
     font-size: larger;
 }
@@ -64,6 +65,5 @@
     .aboutme-content {
         width: 90%;
         height: 45%;
-        margin-left: 5%;
     }
 }

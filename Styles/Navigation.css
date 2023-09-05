@@ -19,6 +19,8 @@
 
 .navigation-btn {
     background: var(--primary);
+    border: 5px double var(--secondary);
+    border-radius: 20px;
 
     display: flex;
     justify-content: center;
@@ -26,6 +28,7 @@
 
     margin:10px;
     width: 120px;
+    height: 50px;
 
     font-family: 'Poppins', sans-serif;
 

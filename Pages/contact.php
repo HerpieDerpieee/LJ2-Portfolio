@@ -1,7 +1,7 @@
 <div class="contact-outer" id="contact">
     <h1 class="pages-fancy-title">Contact</h1><br><br>
-    <div class="contact-inner" id="projects-container">
-        <form method="post" action="./Functions/insert.php">
+    <div class="contact-inner" id="contact-container">
+        <form method="post" action="./Functions/insert.php" onsubmit="document.querySelector('#contact-form-submit-btn').disabled = true">
             <input required type="text" placeholder="Name" name="name">
             <input required type="email" placeholder="E-mail adress " name="email">
             <input required type="text" placeholder="Subject" name="subject">

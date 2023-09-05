@@ -9,6 +9,10 @@
     flex-direction: column;
 }
 
+.contact-inner {
+    width: 100%;
+}
+
 .contact-inner>form {
     display: flex;
     flex-direction: column;
@@ -25,16 +29,29 @@
     outline:none;
     padding:5px;
 }
+.contact-inner>form>input:focus,
+#form-content:focus {
+    border: 3px double var(--accent);
+}
+
 
 #contact-form-submit-btn {
     width: 510px;
     height: 75px;
-    background: var(--accent) !important;
-    border: 3px double var(--primary) !important;
+    background: var(--primary) !important;
+    border: 3px double var(--accent) !important;
     border-radius: 10px;
 }
 #form-content {
     resize: none;
     width: 500px !important;
     height: 200px !important;
+}
+
+@media (max-width: 600px){
+    .contact-inner>form>input,
+    #form-content,
+    #contact-form-submit-btn{
+        width: 90% !important;
+    }
 }

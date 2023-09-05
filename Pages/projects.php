@@ -15,6 +15,10 @@
                     <h1><?= $row["name"] ?></h1>
                     <img class="projects-content-img" src="<?= $row['img'] ?>"/>
                     <div><?= $row["description"] ?></div>
+                    <div class="project-link-container">
+                        <img src="./Media/projects-source.png" alt="source" class="project-link" onclick="window.location.href = '<?= $row["git"] ?>'">
+                        <img src="./Media/projects-link.png" alt="link" class="project-link" onclick="window.location.href = '<?= $row["url"] ?>'">
+                    </div>
                 </div>
                 <?php
             }
@@ -26,3 +30,4 @@
     </div>
     <button id="projects-show-more" onclick="disappear(true)">Show More</button>
 </div>
+
