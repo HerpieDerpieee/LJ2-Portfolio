@@ -23,7 +23,7 @@
 }
 .pp-container {
     min-width: 375px;
-    width: 375px;
+    width: 600px;
     height: 600px;
     background: var(--accent);
 
