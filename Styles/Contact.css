@@ -1,31 +1,40 @@
 .contact-outer {
-    height: var(--page-height);
+    min-height: var(--page-height);
     width: 100%;
-    background: darkred;
+    background: var(--background);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.contact-outer>form {
+
+.contact-inner>form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
-.contact-outer>form>input {
+.contact-inner>form>input,
+#form-content {
     width: 500px;
+    height: 50px;
+    border: 3px double var(--primary);
+    border-radius: 10px;
+    background: var(--secondary);
+    outline:none;
+    padding:5px;
 }
 
-.form-div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    gap: 5px;
+#contact-form-submit-btn {
+    width: 510px;
+    height: 75px;
+    background: var(--accent) !important;
+    border: 3px double var(--primary) !important;
+    border-radius: 10px;
 }
-
-.form-div>input {
-    width: 100px;
-    height: 80px;
-    background: green;
-}
-.form-div>textarea {
+#form-content {
     resize: none;
-    width: 500px;
-    height: 200px;
+    width: 500px !important;
+    height: 200px !important;
 }

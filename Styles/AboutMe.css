@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .aboutme-inner {
@@ -22,9 +22,9 @@
     justify-content: center;
 }
 .pp-container {
-    min-width: 375px;
-    width: 600px;
-    height: 600px;
+    max-width: 600px;
+    width: 90%;
+    height: auto;
     background: var(--accent);
 
     display: flex;
@@ -43,8 +43,21 @@
     font-size: larger;
 }
 
+.aboutme-outer-flex {
+    min-height: 100%;
+    width: 100%;
+    background: var(--background);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px;
+}
+
 @media (max-width: 1000px) {
-    .aboutme-outer {
+    .aboutme-outer-flex {
         flex-direction: column;
     }
 
