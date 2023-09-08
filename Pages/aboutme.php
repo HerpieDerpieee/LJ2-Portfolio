@@ -1,5 +1,5 @@
 <div class="aboutme-outer" id="aboutme">
-    <h1 class="pages-fancy-title">About Me</h1><br>
+    <h1 class="pages-fancy-title">Over Mij</h1><br>
     <div class="aboutme-outer-flex">
         <div class="aboutme-content">
             <div class="pp-container">
