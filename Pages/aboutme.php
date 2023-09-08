@@ -7,7 +7,14 @@
             </div>
         </div>
         <div class="aboutme-content">
-            <span class="aboutme-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores esse, maxime numquam pariatur perferendis sunt ullam voluptatum. Dignissimos distinctio, dolores enim fuga in inventore iusto odit perferendis repellendus vero?</span>
+            <span class="aboutme-text" >
+
+Ik ben Valentijn van der Jagt, ik ben 17 jaar oud, en ik woon in Poortugaal. Ik ben student Software Developer op het Grafisch Lyceum Rotterdam, en ik doe de minor IoT.<br><br>
+Ik ben zelf erg geinterreseerd met programmeren, en ik doe graag ook eigen projecten, zoals het maken van een discord bot, of een ander willekeurig idee dat dan in mijn hoofd komt.<br><br>
+Thuis doe ik vaak het meeste van mijn werk, aangezien ik daar een stuk minder afleiding heb, maar op school lukt het ook vaak wel. Ik heb thuis ook 3 katten rondlopen, 2 kippen, een konijn en een cavia, 
+en daarnaast heb ik ook nog 2 oudere broers, 2 jongere broertjes, en een jonger zusje.
+
+            </span>
         </div>
     </div>
 </div>
